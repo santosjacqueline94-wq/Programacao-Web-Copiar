@@ -19,21 +19,14 @@
     </nav>
 
     <main>
-        <section>
+        <section id="apresentacao">
             <h2>Quem sou eu?</h2>
-            <p>
-                Olá! Meu nome é Jacqueline.
-                Sou uma pessoa dedicada, gosto de aprender
-                coisas novas e estou desenvolvendo meus
-                conhecimentos em tecnologia.
-            </p>
+            <p>Olá! Meu nome é Jacqueline. Sou uma pessoa dedicada, gosto de aprender coisas novas e estou desenvolvendo meus conhecimentos em tecnologia.</p>
 
-            <img src="imagens/minha-foto.jpg"
-                 alt="Foto pessoal"
-                 width="200">
+            <img src="imagens/foto.jpg" alt="Foto pessoal" width="200">
         </section>
 
-        <section>
+        <section id="hobbies">
             <h2>Meus hobbies e interesses</h2>
             <ul>
                 <li>Estudar e aprender coisas novas</li>
@@ -41,99 +34,45 @@
                 <li>Assistir filmes e séries</li>
             </ul>
         </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Formulário de contato</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
 
     <footer>
         <p>Minha Página Pessoal - Jacqueline</p>
-        <a href="https://github.com/">Meu GitHub</a>
+        <a href="https://github.com/santosjacqueline94-wq">Meu GitHub</a>
     </footer>
 
-
-    <!-- Seção de contato -->
-    <section id="contato">
-        <h2>Entre em contato</h2>
-
-        <form>
-            <fieldset>
-                <legend>Envie sua mensagem</legend>
-
-                <div>
-                    <label for="nome">Nome:</label>
-                    <input
-                        type="text"
-                        id="nome"
-                        name="nome"
-                        required
-                    >
-                </div>
-
-                <div>
-                    <label for="email">E-mail:</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                    >
-                </div>
-
-                <div>
-                    <label for="assunto">Assunto:</label>
-                    <input
-                        type="text"
-                        id="assunto"
-                        name="assunto"
-                        required
-                    >
-                </div>
-
-                <div>
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea
-                        id="mensagem"
-                        name="mensagem"
-                        rows="5"
-                        required
-                    ></textarea>
-                </div>
-
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </fieldset>
-        </form>
-    </section>
-
-<section id="contato">
-    <h2>Entre em contato</h2>
-
-    <form>
-        <fieldset>
-            <legend>Formulário de contato</legend>
-
-            <p>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-            </p>
-
-            <p>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </p>
-
-            <p>
-                <label for="assunto">Assunto:</label>
-                <input type="text" id="assunto" name="assunto" required>
-            </p>
-
-            <p>
-                <label for="mensagem">Mensagem:</label><br>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-            </p>
-
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
-        </fieldset>
-    </form>
-</section>
 </body>
 </html>
