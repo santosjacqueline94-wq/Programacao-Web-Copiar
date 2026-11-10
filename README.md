@@ -20,3 +20,6 @@ Esta é minha primeira página desenvolvida na disciplina Programação Web.
 ## Captura de tela do formulário
 
 ![Formulário de contato](formulario-contato.png)
+## Captura da página atualizada
+
+![Página pessoal com Flexbox e Grid](imagens/pagina-atualizada.png)
